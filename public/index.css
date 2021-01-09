@@ -1,0 +1,32 @@
+main {
+  color:black;
+  margin: 0 auto;
+  max-width: 2560px;
+  min-height: 100vh;
+  display: grid;
+}
+.item-b{
+    backdrop-filter:  blur(10px) saturate(80%);
+}
+
+
+
+@media(min-width:768px){
+    .item-a {
+        grid-row-end: auto;
+        grid-row: 4/ 4;
+    }
+   
+    .item-b {
+        grid-row: 4 / 5;
+    }
+}
+@media(max-width:767px){
+    .item-a {
+        grid-row: 2/2;
+    }
+   
+    .item-b {
+        grid-row: 1/2;
+    }
+}

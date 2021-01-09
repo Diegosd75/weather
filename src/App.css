@@ -1,0 +1,63 @@
+
+
+body {
+  background-image: url("globo-1.jpg");
+}
+
+#listSearch{
+    display: block;
+    width: 80%;
+    margin-top: 20%;
+    margin-left: 5%;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: white;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: .25rem;
+    
+}
+
+.item1{
+  font-size: 1.2rem;
+  text-align: center;
+  list-style-type: none;
+  margin-right: 10%;
+  background-color: white;
+  border: 1px solid gray;
+}
+.item2{
+  font-size: 1.2rem;
+  text-align: center;
+  list-style-type: none;
+  margin-right: 10%;
+  background-color: white;
+  border: 1px solid gray;
+}
+.item3{
+  font-size: 1.2rem;
+  text-align: center;
+  list-style-type: none;
+  margin-right: 10%;
+  background-color: white;
+  border: 1px solid gray;
+}
+
+@media(min-width:768px){
+#myList li{
+ display: inline-flex;
+ padding: 2%;
+
+}
+}
+@media(max-width:767px){
+
+}
+ 
+.App-header{
+color:black;
+}
+
